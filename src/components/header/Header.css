@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: var(--bg-color);
+}
+
+.header__text-box {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading__primary {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    color: var(--color-text-primary);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading__primary--pink {
+    color: var(--color-text-secondary);
+}
+
+.heading__secondary {
+    font-weight: 400;
+}
+
