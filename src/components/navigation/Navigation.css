@@ -37,5 +37,5 @@
 .navigation__mobile > .line {
     height: 10px;
     width: 32px;
-    color: var(--color-link);
+    background-color: var(--color-link);
 }
