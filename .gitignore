@@ -1,6 +1,8 @@
 # Ignore everything in repository root
 /*
 
+.idea
+
 # Files to not ignore
 !/.gitignore
 !/README.md
